@@ -6,7 +6,7 @@ variables:
   IMAGE_NAME_UNSTABLE: "${CI_REGISTRY_NAME_UNSTABLE}/${CI_PROJECT_NAME}"
   IMAGE_NAME_STABLE: "${CI_REGISTRY_NAME_STABLE}/${CI_PROJECT_NAME}"
 
-
+# todo add download of https://download.db-ip.com/free/dbip-country-lite-2025-02.mmdb.gz to Dockerfile
 push_unstable:
   stage: push_unstable
   image:
